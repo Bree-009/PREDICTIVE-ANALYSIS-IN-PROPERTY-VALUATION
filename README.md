@@ -1,10 +1,6 @@
-![banner](https://github.com/Bree-009/phase-1-project/assets/151629638/b46f9b3d-ff0c-4ccc-a7aa-67d82062cd07)
-
-
-
 
 # PREDICTIVE ANALYSIS IN PROPERTY VALUATION
-![banner]([https://github.com/Bree-009/phase-1-project/assets/151629638/b46f9b3d-ff0c-4ccc-a7aa-67d82062cd07](https://github.com/Bree-009/PREDICTIVE-ANALYSIS-IN-PROPERTY-VALUATION/blob/main/read%20me%20banner.jpg)))
+![banner](https://github.com/Bree-009/PREDICTIVE-ANALYSIS-IN-PROPERTY-VALUATION/blob/main/read%20me%20banner.jpg)
 
 ## INTRODUCTION
 King County is situated in the Northwestern part of the United States and encompasses the city of Seattle, which is a major economic and cultural hub in the region.
