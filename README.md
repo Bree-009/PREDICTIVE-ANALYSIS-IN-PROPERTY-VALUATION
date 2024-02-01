@@ -27,9 +27,59 @@ Real estate agencies play a critical role in assisting homeowners with crucial d
 The primary goal of this project is to provide real estate agencies with a robust predictive tool, enabling them to offer tailored advice to clients. By leveraging regression analysis, the model can estimate potential increases in property value based on key features. This empowers agencies to guide homeowners in making informed decisions that maximize returns on investment in the highly competitive real estate market.
 
 ## MODELING
+
+
 ## REGRESSION RESULTS
+Model 3 is the preferred model beacuse:
+From the evaluation metrics, we can see that the models have close performance in terms of MAE and RMSE. However, Model 3, which includes log transformations has the highest R-squared value and the lowest AIC and BIC values among the models. Therefore, Model 3 is the best model among the ones considered.
+
+- Consider investing in properties with the basement
+- The further  from seattle the cheaper the houses
+- The more the bedrooms the more expensive the house
+- The more space/land a house occupies,the more expensive it is
+- Square Footage of Living Space: The square footage of living space has a positive impact on house prices. As the size of the living space increases, the estimated price of the house also increases. This indicates that larger houses are generally priced higher.
+- As the age of the house increases, the estimated price also increases. This could be due to factors such as historical significance or architectural value associated with older houses.
 ## CONCLUSION
+**RECOMMENDATIONS**
 
+- Feature Enhancement: Consider enhancing or upgrading the features that positively affect house prices. For example, increasing the square footage of the living area, improving the overall grade of the property, or adding more bathrooms can potentially increase the value of the house.
 
+- Data Collection: Consider collecting additional relevant data that could improve the accuracy of the regression model. This may include variables such as location-specific factors, proximity to amenities, property age, or neighborhood characteristics.
 
+- Market Segmentation: Analyze the relationship between the independent variables and house prices to identify market segments or specific buyer preferences. For instance, if higher-grade houses tend to have higher prices, it may indicate a market segment of luxury or high-end properties.
 
+**LIMITATIONS**
+
+Limited Handling of Non-Linearity:
+
+Issue: If the relationship between predictors and the response is highly non-linear, multiple linear regression may not capture these complexities effectively.
+Impact: The model may fail to capture important patterns in the data, leading to inaccurate predictions.
+
+Causation vs. Correlation:
+
+Issue: Correlation between variables does not imply causation. Even if variables are correlated, it does not necessarily mean that changes in one variable cause changes in another.
+Impact: The model may identify associations but cannot establish causal relationships.
+
+Assumption of Independence:
+
+Issue: Multiple linear regression assumes that observations are independent of each other.
+Impact: Violation of independence assumptions may lead to biased standard errors and affect the validity of statistical tests.
+
+Linearity Assumption:
+
+Issue: Multiple linear regression assumes a linear relationship between the independent variables and the dependent variable. If the true relationship is not linear, the model may not capture the underlying patterns accurately.
+Impact: It may lead to biased predictions and inaccurate estimates of the coefficients.
+
+**NEXT STEPS**
+
+Explore Alternative Models:
+
+Consider exploring more complex models that can capture non-linear relationships, interactions, and other complexities in the data. Examples include random forests and neural networks.
+
+Time Trends and Seasonality:
+
+If time trends or seasonality are relevant, explore time series models or include time-related features to better capture temporal patterns.
+
+Regular Monitoring:
+
+Implement regular monitoring and updates to the model. As new data becomes available, retrain the model periodically to ensure it remains relevant and effective.
