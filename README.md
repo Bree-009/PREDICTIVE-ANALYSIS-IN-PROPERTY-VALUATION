@@ -5,7 +5,7 @@
 ## INTRODUCTION
 King County is situated in the Northwestern part of the United States and encompasses the city of Seattle, which is a major economic and cultural hub in the region.
 With a population of 2,269,675 in the 2020 census,King County is the most populous county in Washington, and the 12th most populous county in the United States. 
-The County has a total land area of 2,130 square miles (1,363,200 acres). About 90% of King County's population lives in cities, while about 246,000 residents live in the unincorporated area. [King County.gov](https://kingcounty.gov/en/dept/executive/governance-leadership/performance-strategy-budget/regional-planning/demographics). 
+The County has a total land area of 2,130 square miles (1,363,200 acres). About 90% of King County's population lives in cities, while about 246,000 residents live in the unincorporated area; [King County.gov](https://kingcounty.gov/en/dept/executive/governance-leadership/performance-strategy-budget/regional-planning/demographics). 
 
 King County experienced an 18% increase in population growth between 2010 and 2020. Due to this, the housing market in King County has experienced significant growth and changes over the years. 
 As the region's economy thrived, King County experienced substantial population growth. This influx of residents led to increased demand for housing, both in urban and suburban areas. Seattle, with its iconic skyline, became a sought-after destination for tech professionals and urban enthusiasts.The real estate market in King County is known for its competitiveness.The region's diverse neighborhoods offer a range of housing options, from historic homes in older districts to modern developments in suburban areas.
@@ -13,11 +13,11 @@ As the region's economy thrived, King County experienced substantial population 
 
 #### AUTHORS
 
-- [Jonquil Phelan](https://github.com/phelanthropus),  [George Mbugua](https://github.com/georgembugua00), [Vincent Kiplangat](https://github.com/VincentKiplangat), [Kenneth Gakuru](https://github.com/KennethGakuru), [Fanice Andayi](https://github.com/Fanice-Andayi), [Wallace Ouma](https://github.com/WKalawi), [Ian Odhiambo](https://github.com/ian-obotey), [Charles Gaithuma](https://github.com/CKGaithuma), [Brenda Ngigi](https://github.com/Bree-009)
+- [Jonquil Phelan](https://github.com/phelanthropus),  [George Mbugua](https://github.com/georgembugua00), [Vincent Kiplangat](https://github.com/VincentKiplangat), [Kenneth Gakuru](https://github.com/KennethGakuru), [Fanice Andayi](https://github.com/Fanice-Andayi), [Wallace Ouma](https://github.com/WKalawi), [Ian Odhiambo](https://github.com/ian-obotey), [Charles Gaithuma](https://github.com/CKGaithuma), [Brenda Ngigi](https://github.com/Bree-009). 
 
   
 ## OVERVIEW
-This project is centered on the development of a multiple linear regression model with the primary objective of predicting property prices in the real estate market. The focal point of this analysis is the dependent variable, "price," while the independent variables encompass a comprehensive range of property characteristics. These characteristics include, but are not limited to, the number of bedrooms, year built, number of floors in the home, total living space area in square feet, overall condition of the home, and the geographical location of the property.
+This project is centered on the development of a multiple linear regression model with the primary objective of predicting property prices in the real estate market. The focal point of this analysis is the dependent variable, "price", while the independent variables encompass a comprehensive range of property characteristics. These characteristics include, but are not limited to, the number of bedrooms, year built, number of floors in the home, total living space area in square feet, overall condition of the home, and the geographical location of the property.
 
 ## DEPENDENCIES
 - python3
@@ -38,33 +38,39 @@ This project is centered on the development of a multiple linear regression mode
 
 ## NOTEBOOK STRUCTURE 
 
-1.Overview
+1. Overview
 
-2.Business Understanding
+2. Business Understanding
 
-3.Data Understanding
+3. Data Understanding
 
-4.Data Cleaning
+4. Data Cleaning
 
-5.Statistical Analysis
+5. Statistical Analysis
 
-6.Data Preparation
+6. Data Preparation
 
-7.Modelling
+7. Modelling
 
-8.Regression Results
+8. Regression Results
 
-9.Conclusion - Recommendations,Limitations and Next Steps
+9. Conclusion - Recommendations,Limitations and Next Steps
 
 ## BUSINESS UNDERSTANDING
-#### Stakeholders and Their Interests: ####
+### *Stakeholders and Their Interests:* ###
 The key stakeholders impacted by this project are Real Estate Agencies. Their interest is accurate pricing and having a competitive advantage and the value they seek is Improved decision making and client satisfaction.
 
-#### OBJECTIVES ####
-##### - Main Objective: #####
+**Benefits for Real Estate Agencies:**
+
+- *Informed Decision-Making*: Agencies can provide clients with data-driven insights, enhancing the decision-making process.
+- *Tailored Advice*: Customized recommendations based on the unique features of each property.
+- *Maximized Returns*: Clients can make decisions that optimize return on investment in the competitive real estate market.
+
+### OBJECTIVES ###
+#### - Main Objective: ####
 The main objective of this project is to develop a predictive regression model that assists real estate agencies in advising clients on house prices. The model aims to predict the potential variation in property value based on property characteristics, providing valuable insights to guide clients in making informed decisions about their investments.
 
-##### - Specific Objectives #####
+#### - Specific Objectives ####
 
 i). Identify Key Factors Influencing House Prices in King County, California, to provide valuable insights for precise pricing strategies.
 
